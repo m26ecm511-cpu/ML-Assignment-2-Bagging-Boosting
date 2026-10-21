@@ -1,7 +1,9 @@
 ML Assignment 2: Bagging and Boosting
 
 Student: Abhishek Kapar
+
 Roll Number: M26ecm511
+
 Random Seed: 26511
 
 ---
@@ -10,20 +12,30 @@ Random Seed: 26511
 
 This project studies decision tree classification, bagging, SAMME boosting, and bias–variance analysis using the Olivetti Faces dataset.
 
-The experiments are implemented in Python using scikit-learn and related libraries. The results are saved as JSON files, and plots are generated to compare model performance.
+The experiments are implemented in Python using scikit-learn and related libraries. The results are saved as JSON files, and plots are generated to compare model 
+performance.
 
 2. Repository Structure
 
 ML-Assignment-2-Bagging-Boosting/
+
 ├── README.md
+
 ├── config.json
+
 ├── run_experiments.py
+
 ├── make_report.py
+
 ├── requirements.txt
+
 ├── reproduce.sh
+
 ├── RUN_IN_COLAB.md
+
 ├── report_template.md
 └── outputs/
+
     ├── report.pdf
     ├── report.tex
     ├── split.json
