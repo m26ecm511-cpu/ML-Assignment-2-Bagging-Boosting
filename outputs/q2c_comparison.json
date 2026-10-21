@@ -1,0 +1,36 @@
+{
+  "comparison_25_50_100": [
+    {
+      "learners_requested": 25,
+      "learners_actual": 25,
+      "train_accuracy": 0.5375,
+      "validation_accuracy": 0.2,
+      "clean_test_accuracy": 0.2875,
+      "training_seconds": 26.08119959999749
+    },
+    {
+      "learners_requested": 50,
+      "learners_actual": 50,
+      "train_accuracy": 0.7333333333333333,
+      "validation_accuracy": 0.3,
+      "clean_test_accuracy": 0.3625,
+      "training_seconds": 52.88690840000345
+    },
+    {
+      "learners_requested": 100,
+      "learners_actual": 100,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.3375,
+      "clean_test_accuracy": 0.5125,
+      "training_seconds": 104.53680429999804
+    }
+  ],
+  "high_weight_training_sample": {
+    "training_position": 233,
+    "original_dataset_index": 389,
+    "true_label": 38,
+    "prediction": 38,
+    "final_stage_sample_weight": 0.058743077142283474,
+    "number_of_learner_errors": 87
+  }
+}

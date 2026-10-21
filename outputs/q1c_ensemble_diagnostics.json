@@ -1,0 +1,51 @@
+{
+  "selected_B": 100,
+  "selected_depth": null,
+  "selected_leaf": 4,
+  "selected_test_pairwise_disagreement": 0.7803560606060606,
+  "selected_test_mean_vote_margin": 0.297875,
+  "curves": [
+    {
+      "B": 1,
+      "oob_accuracy": 0.35,
+      "pairwise_disagreement": 0.0,
+      "mean_vote_margin": 1.0
+    },
+    {
+      "B": 5,
+      "oob_accuracy": 0.37327188940092165,
+      "pairwise_disagreement": 0.73625,
+      "mean_vote_margin": 0.3
+    },
+    {
+      "B": 10,
+      "oob_accuracy": 0.4322033898305085,
+      "pairwise_disagreement": 0.7508333333333332,
+      "mean_vote_margin": 0.3
+    },
+    {
+      "B": 25,
+      "oob_accuracy": 0.5916666666666667,
+      "pairwise_disagreement": 0.7747916666666667,
+      "mean_vote_margin": 0.28300000000000003
+    },
+    {
+      "B": 50,
+      "oob_accuracy": 0.7041666666666667,
+      "pairwise_disagreement": 0.774795918367347,
+      "mean_vote_margin": 0.29300000000000004
+    },
+    {
+      "B": 100,
+      "oob_accuracy": 0.7375,
+      "pairwise_disagreement": 0.7803560606060606,
+      "mean_vote_margin": 0.297875
+    },
+    {
+      "B": 200,
+      "oob_accuracy": 0.7916666666666666,
+      "pairwise_disagreement": 0.7790734924623116,
+      "mean_vote_margin": 0.2971875
+    }
+  ]
+}

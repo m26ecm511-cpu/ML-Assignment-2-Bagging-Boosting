@@ -1,0 +1,116 @@
+{
+  "grid": [
+    {
+      "max_depth": 2,
+      "min_samples_leaf": 1,
+      "train_accuracy": 0.075,
+      "validation_accuracy": 0.075,
+      "clean_test_accuracy": 0.075
+    },
+    {
+      "max_depth": 2,
+      "min_samples_leaf": 2,
+      "train_accuracy": 0.075,
+      "validation_accuracy": 0.075,
+      "clean_test_accuracy": 0.075
+    },
+    {
+      "max_depth": 2,
+      "min_samples_leaf": 4,
+      "train_accuracy": 0.075,
+      "validation_accuracy": 0.075,
+      "clean_test_accuracy": 0.075
+    },
+    {
+      "max_depth": 4,
+      "min_samples_leaf": 1,
+      "train_accuracy": 0.125,
+      "validation_accuracy": 0.1,
+      "clean_test_accuracy": 0.1125
+    },
+    {
+      "max_depth": 4,
+      "min_samples_leaf": 2,
+      "train_accuracy": 0.125,
+      "validation_accuracy": 0.1,
+      "clean_test_accuracy": 0.1125
+    },
+    {
+      "max_depth": 4,
+      "min_samples_leaf": 4,
+      "train_accuracy": 0.125,
+      "validation_accuracy": 0.1,
+      "clean_test_accuracy": 0.1125
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 1,
+      "train_accuracy": 0.225,
+      "validation_accuracy": 0.1875,
+      "clean_test_accuracy": 0.2
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 2,
+      "train_accuracy": 0.225,
+      "validation_accuracy": 0.1875,
+      "clean_test_accuracy": 0.2
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 4,
+      "train_accuracy": 0.225,
+      "validation_accuracy": 0.1875,
+      "clean_test_accuracy": 0.2
+    },
+    {
+      "max_depth": 16,
+      "min_samples_leaf": 1,
+      "train_accuracy": 0.425,
+      "validation_accuracy": 0.3125,
+      "clean_test_accuracy": 0.3125
+    },
+    {
+      "max_depth": 16,
+      "min_samples_leaf": 2,
+      "train_accuracy": 0.425,
+      "validation_accuracy": 0.3125,
+      "clean_test_accuracy": 0.3125
+    },
+    {
+      "max_depth": 16,
+      "min_samples_leaf": 4,
+      "train_accuracy": 0.425,
+      "validation_accuracy": 0.3125,
+      "clean_test_accuracy": 0.3125
+    },
+    {
+      "max_depth": "None",
+      "min_samples_leaf": 1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.55,
+      "clean_test_accuracy": 0.65
+    },
+    {
+      "max_depth": "None",
+      "min_samples_leaf": 2,
+      "train_accuracy": 0.975,
+      "validation_accuracy": 0.55,
+      "clean_test_accuracy": 0.65
+    },
+    {
+      "max_depth": "None",
+      "min_samples_leaf": 4,
+      "train_accuracy": 0.975,
+      "validation_accuracy": 0.575,
+      "clean_test_accuracy": 0.625
+    }
+  ],
+  "selected": {
+    "max_depth": "None",
+    "min_samples_leaf": 4,
+    "train_accuracy": 0.975,
+    "validation_accuracy": 0.575,
+    "clean_test_accuracy": 0.625
+  }
+}
