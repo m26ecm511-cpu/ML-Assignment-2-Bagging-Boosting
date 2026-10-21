@@ -1,0 +1,66 @@
+{
+  "student_name": "Abhishek Kapar",
+  "roll_number": "M26ecm511",
+  "seed": 26511,
+  "dataset": "fetch_olivetti_faces",
+  "features": "raw flattened pixels only",
+  "split": {
+    "train_per_identity": 6,
+    "validation_per_identity": 2,
+    "test_per_identity": 2
+  },
+  "mask": {
+    "rows_start": 24,
+    "rows_stop_exclusive": 40,
+    "cols_start": 24,
+    "cols_stop_exclusive": 40,
+    "value": 0
+  },
+  "tree": {
+    "max_depth": [
+      2,
+      4,
+      8,
+      16,
+      null
+    ],
+    "min_samples_leaf": [
+      1,
+      2,
+      4
+    ]
+  },
+  "bagging": {
+    "n_estimators": [
+      1,
+      5,
+      10,
+      25,
+      50,
+      100,
+      200
+    ]
+  },
+  "boosting": {
+    "max_depth": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "rounds": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      25,
+      50,
+      100
+    ]
+  },
+  "bias_variance": {
+    "refits": 30,
+    "bagged_trees_per_refit": 100
+  }
+}
